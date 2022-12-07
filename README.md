@@ -9,15 +9,15 @@ This repo contains the codebase of a series of research projects focused on quan
 -- Pytorch 1.7.1 
 
 ## Structure of this repo
-** dataloader.py ** - load [QuickDraw](https://github.com/googlecreativelab/quickdraw-dataset) dataset
+*dataloader.py* -- load [QuickDraw](https://github.com/googlecreativelab/quickdraw-dataset) dataset
 
-** main.py ** -- main training and evaluation function
+*main.py* -- main training and evaluation function
 
-** models.py ** -- GACL implementations is here
+*models.py* -- GACL implementations is here
 
-** data_utils.py ** -- data processing functions
+*data_utils.py* -- data processing functions
 
-** config.py ** -- experiment settings parameters
+*config.py* -- experiment settings parameters
 
 ## Trained models
 coming soon
