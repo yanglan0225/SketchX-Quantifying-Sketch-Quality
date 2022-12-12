@@ -11,13 +11,13 @@ This repo contains the codebase of a series of research projects focused on quan
 ## Structure of this repo
 *dataloader.py* -- load [QuickDraw](https://github.com/googlecreativelab/quickdraw-dataset) dataset
 
-*main.py* -- main training and evaluation function
+*main.py* -- main training and evaluation functions
 
-*models.py* -- GACL implementations is here
+*models.py* -- GACL implementations are here
 
-*data_utils.py* -- data processing functions
+*data_utils.py* -- sketch data processing functions
 
-*config.py* -- experiment settings parameters
+*config.py* -- experiment settings and hyper-parameters
 
 ## Trained models
 coming soon
