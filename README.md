@@ -27,7 +27,7 @@ If you use this code in your research, please kindly cite the following papers
 ```
 @inproceedings{lancvpr,
   title={Finding Badly Drawn Bunnies},
-  author={{Yang}, Lan and Pang, Kaiyue and Zhang, Honggang and Song, Yi-Zhe},
+  author={Yang, Lan and Pang, Kaiyue and Zhang, Honggang and Song, Yi-Zhe},
   booktitle={CVPR},
   year={2022},
 }
