@@ -18,7 +18,7 @@ def set_optimizer(config, params):
     """
 
     optimizer = optim.Adam(params, lr=config.lr)
-    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=100 * config.max_train_batch, eta_min=1e-8)
+    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=config.max_epoch * config.max_train_batch, eta_min=1e-8)
 
     return optimizer, scheduler
 
