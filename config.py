@@ -9,7 +9,7 @@ class Config:
         self.max_length = 100
 
         # training setting
-        self.max_epoch = 100
+        self.max_epoch = 10
         self.lr = 1e-3
         self.batch_size = 512
         self.device = 'cuda:0'
